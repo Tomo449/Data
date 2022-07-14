@@ -3,6 +3,11 @@
 int main(){
     int i = 0, n = 0;
     int ch = 0, ct = 0;
+    char name[30];
+
+    printf("Who are you?\n");
+    scanf("%s", name);
+    printf("Hello, %s\n", name);
 
     printf("Tossing a coin... \n");
     for(i=1;i<=3;i++){
